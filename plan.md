@@ -107,12 +107,6 @@ OTHER EXTERNAL
 
 
 
-ASSIGNMENTS
------------
-
-* Icelandic name order
-
-
 
 Schedule
 ========
@@ -149,6 +143,12 @@ Day 1
         * Python Enhancement Proposals (PEP)
     * Python implementations
         * CPython, Jython, PyPy,...
+    * IDEs
+        * Idle
+        * PyCharm
+        * Idle
+        * Thonny
+
 
 ### Python basics
 
