@@ -54,9 +54,8 @@ Dagur 5
 
 ### shutil
 
-* `copy`, `copy2^
+* `copy`, `copy2`
 * `copytree`
 * `rmtree`
 * `move`
 
----
