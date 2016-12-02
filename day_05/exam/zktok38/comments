@@ -1,0 +1,42 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  2
+        Skoða warnings! removeAll crashar alltaf
+        Vantar head = NULL og count = 0
+    * last       (8%)  8
+    * getNth     (10%) 7
+        Klikkar ef index == count
+        Klikkar ef index < 0
+    * append     (10%) 2
+        Þú mátt ekki hijack-a tengda listanum úr lis
+        Virkar ekki á tómum lista
+
+    TOTAL: 31
+
+
+Classifier (30%):
+    Höndlar bara lágstafi (-2)
+    Frekar mikið hardcore að taka trie á þetta
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  2
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  5
+
+
+    TOTAL: 27
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 5
+        Virkar ekki á tré sem er lauf
+
+    TOTAL: 22

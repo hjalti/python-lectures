@@ -1,0 +1,40 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  0
+    * operator<< (4%)  0
+    * headInsert (4%)  0
+        Tengir ekki nýju nóðuna inn í listann
+    * removeAll  (5%)  0
+        Óendanleg endurkvæmni
+    * last       (8%)  2
+        Uppfærir ekki curr í lykkjunni
+        Kastar ekki villu
+        Lykkjuskilyrðið er ekki rétt
+    * getNth     (10%) 4
+        Kastar ekki villu
+        next er ekki til
+    * append     (10%) 0
+
+    TOTAL: 8
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 0
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  0
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 0
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 0
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 4

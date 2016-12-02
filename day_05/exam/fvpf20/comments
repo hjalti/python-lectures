@@ -1,0 +1,39 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  3
+        Virkar ekki á tóman lista
+    * headInsert (4%)  4
+    * removeAll  (5%)  4
+        Vantar head = NULL
+    * last       (8%)  8
+    * getNth     (10%) 10
+    * append     (10%) 2
+        Virkar ekki á tóman lista
+        Þú mátt ekki hijack-a tengda listanum úr lis
+
+    TOTAL: 35
+
+
+Classifier (30%):
+    Ekki nógu almenn lausn (-10)
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  5
+
+
+    TOTAL: 20
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 5
+        node = NULL
+
+    TOTAL: 22

@@ -1,0 +1,37 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  2
+        Frumstillir ekki head og num_of_elements
+    * last       (8%)  8
+    * getNth     (10%) 9
+        Virkar ekki ef index < 0
+    * append     (10%) 2
+        Ekki stela listanum úr lis
+        Virkar ekki á tómum lista
+
+    TOTAL: 33
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 0
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  0
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 2
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 2
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 8
+
+    TOTAL: 25

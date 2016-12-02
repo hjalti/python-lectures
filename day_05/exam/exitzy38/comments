@@ -1,0 +1,36 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  0
+    * last       (8%)  0
+        Skilar alltaf öðru staki (eða crashar ef að listinn inniheldur bara eitt stak)
+    * getNth     (10%) 6
+        Kastar ekki villu ef það er index-að út fyrir listann
+        Virkar ekki á tóman lista
+    * append     (10%) 0
+
+    TOTAL: 18
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 0
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  0
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 0
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 0
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 4

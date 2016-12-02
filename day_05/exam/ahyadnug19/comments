@@ -1,0 +1,43 @@
+IntList (45%):
+    * IntList    (2%)  0
+        Ég skil ekki setup-ið hjá þér. Af hverju er head ný nóða?
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  3
+        Skil ekki alveg með special case-ið ef að size er 0
+    * removeAll  (5%)  0
+    * last       (8%)  2
+        head verður náttúrulega aldrei NULL
+        þarft að víxla á línunum í lykkjunni til að fá þetta til að virka
+    * getNth     (10%) 6
+        Kastar aldrei villu
+    * append     (10%) 2
+        Virkar ekki á tóman lista
+        Mátt ekki stela tengda listanum úr lis
+
+    TOTAL: 19
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 0
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 0
+
+
+

@@ -1,0 +1,40 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  0
+    * headInsert (4%)  4
+    * removeAll  (5%)  2
+        Virkar ekki á tóman lista.
+        Frumstillir ekki head og size
+    * last       (8%)  8
+    * getNth     (10%) 8
+        Virkar ekki á tóman lista
+    * append     (10%) 0
+
+    TOTAL: 26
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 8
+            Skoða compiler warnings. if-setningin röng
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 0
+        preorder
+        virkar ekki á tóma tréð
+    * sum               (5%) 3
+    * change_all        (8%) 5
+        Virkar ekki á tóma tréð
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 8

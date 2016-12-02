@@ -1,0 +1,33 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  5
+    * last       (8%)  8
+    * getNth     (10%) 10
+    * append     (10%) 10
+
+    TOTAL: 45
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  5
+
+
+    TOTAL: 30
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 8
+
+    TOTAL: 25

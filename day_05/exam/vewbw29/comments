@@ -1,0 +1,40 @@
+IntList (45%):
+    * IntList    (2%)  1
+        Frumstillir ekki tail
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  4
+        Frumstillir ekki tail og count
+    * last       (8%)  6
+        Virkar ekki með tóman lista
+    * getNth     (10%) 7
+        Leyfir index == count
+        Passar ekki að index >= 0
+    * append     (10%) 0
+        Tail er aldrei sett
+
+    TOTAL: 28
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 2
+        Postorder
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 2

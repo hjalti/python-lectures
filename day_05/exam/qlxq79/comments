@@ -1,0 +1,40 @@
+IntList (45%):
+    * IntList    (2%)  1
+        Lekur minni
+    * ~IntList   (2%)  2
+    * operator<< (4%)  3
+        prentar út node en ekki node->data
+    * headInsert (4%)  0
+        Virkar ekki á tóman lista
+        new-ar aldrei node pointer
+    * removeAll  (5%)  4
+        clear er í rauninni remove all, þú ættir að kalla á clear úr removeAll
+    * last       (8%)  8
+    * getNth     (10%) 6
+        Off-by-one
+        Kastar ekki villu ef index >= count
+    * append     (10%) 0
+
+    TOTAL: 24
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 0
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 0

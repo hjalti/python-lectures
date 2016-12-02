@@ -1,0 +1,40 @@
+IntList (45%):
+    * IntList    (2%)  0
+        Smiðurinn SEGFAULT-ar
+        head->link = NULL virkar ekki ef head er NULL
+    * ~IntList   (2%)  2
+    * operator<< (4%)  3
+        Sleppir síðasta
+    * headInsert (4%)  0
+        Virkar ekki með tóman lista
+        Insert-ar fyrir aftan head
+    * removeAll  (5%)  0
+        head uppfærist ekki
+        Óendanleg lykkja
+    * last       (8%)  8
+    * getNth     (10%) 0
+    * append     (10%) 0
+
+    TOTAL: 13
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 0
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  0
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 0
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 0
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 2
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 14

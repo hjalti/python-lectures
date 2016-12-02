@@ -1,0 +1,39 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  0
+    * headInsert (4%)  0
+    * removeAll  (5%)  3
+        Vantar tail = NULL
+    * last       (8%)  3
+        Rétt útfærsla ef tail væri á réttum stað
+    * getNth     (10%) 0
+    * append     (10%) 0
+
+    TOTAL: 10
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 0
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  0
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 0
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 2
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 0
+        parse_tree?
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 0
+
+
+

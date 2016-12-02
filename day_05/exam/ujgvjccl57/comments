@@ -1,0 +1,38 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  4
+        Lest úr minni sem er búið að skila
+    * last       (8%)  8
+    * getNth     (10%) 5
+        Kastar engum villum
+        delete?
+    * append     (10%) 3
+        Skemmir lis og skemmir þannig append fallið
+        i != NULL (ekki i = NULL)
+
+    TOTAL: 32
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 25
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 0
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 12

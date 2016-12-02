@@ -1,0 +1,37 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  0
+    * operator<< (4%)  0
+    * headInsert (4%)  0
+        Virkar næstum því bara ef listinn er tómur fyrir, en þú skilar svo
+        minninu fyrir nóðunni sem þú varst að bæta við
+    * removeAll  (5%)  0
+    * last       (8%)  8
+    * getNth     (10%) 7
+        Hvað ef index < 0
+        Hvað ef index == numberOfNodes
+    * append     (10%) 0
+
+    TOTAL: 17
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 0
+    * sum               (5%) 0
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 0

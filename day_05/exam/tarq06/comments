@@ -1,0 +1,43 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  1
+        Lykkja virkar ekki
+    * headInsert (4%)  2
+        Frumstillir ekki minni
+    * removeAll  (5%)  2
+        Lykkja virkar ekki
+        Notar minni sem þú ert búinn að skila
+    * last       (8%)  3
+        Lykkja virkar ekki
+    * getNth     (10%) 2
+        Lykkja virkar ekki
+        Höndlar ekki index < 0
+        Nær aldrei að kasta villu
+    * append     (10%) 0
+        Þú mátt ekki hijack-a tengda listanum úr lis
+        Lykkja virkar ekki
+
+    TOTAL: 14
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 0
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 9

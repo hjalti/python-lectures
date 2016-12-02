@@ -1,0 +1,39 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  5
+    * last       (8%)  8
+    * getNth     (10%) 7
+        Crash-ar ef index == count
+        Virkar ekki ef index < 0
+    * append     (10%) 3
+        Kallar í operator= sem er ekki útfærður
+        Skemmir listan lis
+
+    TOTAL: 35
+
+
+Classifier (30%):
+    * add (15%):
+        * Útfærsla og virkni (10%) 2
+            Ekki mikið að, en þurfti að breyta töluvert
+        * Kasta villu        (2%)  0
+        * Tímaflækja         (3%)  2
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 0
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 4
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 5
+        Virkar ekki á tré sem er lauf
+
+    TOTAL: 22

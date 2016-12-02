@@ -1,0 +1,38 @@
+IntList (45%):
+    * IntList    (2%)  2
+    * ~IntList   (2%)  2
+    * operator<< (4%)  4
+    * headInsert (4%)  4
+    * removeAll  (5%)  3
+        head = NULL missing
+    * last       (8%)  8
+    * getNth     (10%) 9
+        Doesn't work if index < 0
+    * append     (10%) 9
+        Doesn't work if the list is empty
+
+    TOTAL: 41
+
+
+Classifier (30%):
+    Two statements that had no effect (look out for the compiler warnings!)
+    node_killer called twice... (-2)
+    * add (15%):
+        * Útfærsla og virkni (10%) 10
+        * Kasta villu        (2%)  2
+        * Tímaflækja         (3%)  3
+    * print_all (15%):
+        * Útfærsla og virkni (10%) 10
+        * Tímaflækja         (5%)  0
+
+
+    TOTAL: 23
+
+
+Binary Tree (25%):
+    * print_inorder     (4%) 4
+    * sum               (5%) 5
+    * change_all        (8%) 8
+    * remove_all_leaves (8%) 0
+
+    TOTAL: 17
