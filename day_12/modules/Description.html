@@ -1,0 +1,26 @@
+<p>import string as _st from random import choice as _choice, randint as _randint from pathlib import Path as _Path import argparse</p>
+<p>_letters = _st.ascii_letters + _st.digits _letters_with_symbols = _letters + _st.punctuation</p>
+<p>class _Words: def <strong>init</strong>(self, filename): self.filename = filename self.words = None</p>
+<pre><code>def _parse_file(self):
+    with open(self.filename):
+        with open(self.filename) as f:
+            self.words = f.read().splitlines()
+
+def get_word(self):
+    if self.words is None:
+        self._parse_file()
+    return _choice(self.words)</code></pre>
+<p>_file = _Path(<strong>file</strong>).parent / 'all_words.txt' _words = _Words(str(_file))</p>
+<p>def random(minlen=5,maxlen=10,punct=False): letters = [_letters, _letters_with_symbols][punct] return ''.join( <em>choice(letters) for </em> in range(_randint(minlen, maxlen)) )</p>
+<p>def xkcd(words=3, separator=' '): return separator.join( <em>words.get_word() for </em> in range(words) )</p>
+<p>def <em>randpass(args): for </em> in range(args.count): print(random(args.min_len, args.max_len, args.use_punct))</p>
+<p>def _xkcdpass(args): pass</p>
+<p>if <strong>name</strong> == '<strong>main</strong>': parser = argparse.ArgumentParser(description='Generate a password') subparsers = parser.add_subparsers()</p>
+<pre><code>parser_rand = subparsers.add_parser(&#39;rand&#39;)
+parser_rand.add_argument(&#39;count&#39;, metavar=&#39;N&#39;, nargs=&#39;?&#39;, default=1, help=&#39;Number of passwords to be generated (default: %(default)s)&#39;)
+parser_rand.add_argument(&#39;-m&#39;, &#39;--min-len&#39;, metavar=&#39;MIN&#39;, default=5, help=&#39;Minimum length of password (default: %(default)s)&#39;)
+parser_rand.add_argument(&#39;-a&#39;, &#39;--max-len&#39;, metavar=&#39;MAX&#39;, default=10, help=&#39;Maximum length of password (default: %(default)s)&#39;)
+parser_rand.add_argument(&#39;-p&#39;, &#39;--use-punct&#39;, action=&#39;store_true&#39;, help=&#39;Use punctuations in passwords (default: %(default)s)&#39;)
+parser_rand.set_defaults(func=_randpass)
+
+args = parser.parse_args()</code></pre>
