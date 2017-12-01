@@ -1,67 +1,21 @@
-import re
-from itertools import chain
+f = open('utf8.txt', encoding='utf-8')
+utf8 = f.read()
+f.close()
 
-config = '''
-cuteness: 1200
-timeout: 400
-sofa_tearing: 990
-description: Extremely playful and fun
-breed: Sphynx
-'''
+f = open('utf8-bom.txt', encoding='utf-8-sig')
+utf8bom = f.read()
+f.close()
 
-
-
+f = open('latin1.txt', encoding='ISO-8859-1')
+latin1 = f.read()
+f.close()
 
 
+from datetime import datetime
 
+with open('mooshak') as f:
+    mooshak = [x.split('\t') for x in f.read().splitlines()]
 
+for x in mooshak:
+    x[1] = datetime.strptime(x[1].strip(), '%Y/%m/%d %S:%M')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-lex = re.compile(r'end|print|;|\+|-|\*|\(|\)|\b\d+\b|\b[A-Za-z]+\b|\s+|.+')
-comp_lex = re.compile(r'(?P<END>end)|(?P<PRINT>print)|(?P<EQ>=)|(?P<SEMICOL>;)|(?P<PLUS>\+)|(?P<MINUS>-)|(?P<MUL>\*)|(?P<LPAREN>\()|(?P<RPAREN>\))|(?P<INT>\b\d+\b)|(?P<ID>\b[A-Za-z]+\b)|(?P<WS>\s+)|(?P<ERR>.+)')
-
-
-program = '''var = 3;
-b = 4 * (7-var); @
-print b;
-9ee
-end'''
-
-tokens = sum(map(comp_lex.findall,program.split()),[])
-
-for m in chain(*map(comp_lex.finditer,program.split())):
-    next(filter(lambda x: x[1], m.groupdict().items()))
