@@ -52,11 +52,11 @@ date: 4.\ desember 2017
 ## JSON
 
 ```
->>> json.dumps('''{
+>>> json.dumps({
 ...     'test': 3,
 ...     5: True,
 ...     4.3: None
-... }''')
+... })
 ```
 
 ## Serialization
@@ -92,7 +92,7 @@ date: 4.\ desember 2017
     * Can only serialize a small part of Python's data structures
     * Widely used
 
-* Python
+* Pickle
     * Binary
     * Can serialize most of Python's data structures
     * Not (or rarely) used outside Python
@@ -117,3 +117,13 @@ date: 4.\ desember 2017
 ## `urllib.requests`
 
 * Fetch data over HTTP (and HTTPS and FTP)
+
+# A little extra
+
+## Meta programming
+
+* Like many interpreted languages, Python can execute Python code
+* `eval`
+    * Evaluates an expression and returns its value
+* `exec`
+    * Executes python code
