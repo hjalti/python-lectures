@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<observations>
+    <station id="1" valid="1">
+        <name>Reykjavík</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/reykjavik/#group=100&station=1]]>
+        </link>
+        <T>7.9</T>
+        <D>SSE</D>
+        <F>5</F>
+    </station>
+    <station id="422"  valid="1">
+        <name>Akureyri</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/northeast/#group=15&station=422]]>
+        </link>
+        <T>6.9</T>
+        <D>S</D>
+        <F>3</F>
+    </station>
+    <station id="31572"  valid="1">
+        <name>Akrafjall</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/faxafloi/#group=11&station=31572]]>
+        </link>
+        <T>7.9</T>
+        <D>ENE</D>
+        <F>4</F>
+    </station>
+    <station id="2642"  valid="1">
+        <name>Ísafjörður</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/west-fjords/djupid/#group=1301&station=2642]]>
+        </link>
+        <T>9.5</T>
+        <D>WSW</D>
+        <F>3</F>
+    </station>
+    <station id="178"  valid="1">
+        <name>Stykkishólmur</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/breidafjordur/#group=12&station=178]]>
+        </link>
+        <T>8.3</T>
+        <D>S</D>
+        <F>8</F>
+    </station>
+    <station id="6235"  valid="1">
+        <name>Tindfjöll</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/centralhighlands/#group=61&station=6235]]>
+        </link>
+        <T>1.4</T>
+        <D>SSE</D>
+        <F>5</F>
+    </station>
+    <station id="2319"  valid="1">
+        <name>Patreksfjörður</name>
+        <time>2016-12-05 08:00:00</time>
+        <err></err>
+        <link>
+            <![CDATA[http://en.vedur.is/weather/observations/areas/west-fjords/#group=13&station=2319]]>
+        </link>
+        <T>9.0</T>
+        <D>SE</D>
+        <F>4</F>
+    </station>
+</observations>
+
